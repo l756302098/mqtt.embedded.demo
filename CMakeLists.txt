@@ -21,4 +21,4 @@ enable_testing()
 ADD_SUBDIRECTORY(MQTTPacket)
 
 add_executable(hello hello.cpp)
-# target_link_libraries(hello MQTTPacketClient)
+target_link_libraries(hello MQTTPacketClient)
