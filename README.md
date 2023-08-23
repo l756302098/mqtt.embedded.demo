@@ -34,8 +34,8 @@ sudo apt remove --purge emqx
 ```
 
 ## Config
-
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](doc/port.png)
+$ netstat -nplt     
+![run netstat -nplt.](doc/port.png)
  端口      | 描述          
  -------- | :-----------: 
  8083     | mqtt ws监听端口
